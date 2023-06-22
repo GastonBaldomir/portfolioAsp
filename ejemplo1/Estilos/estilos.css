@@ -1,0 +1,157 @@
+﻿header {
+    background-color: blueviolet;
+}
+
+.imagenes {
+    width: 150px;
+    height: 150px;
+}
+
+.fotoPerfil {
+    width: 180px;
+    height: 180px;
+}
+
+.links {
+    color: rgb(178, 146, 207);
+}
+
+.ver {
+    font-size: small;
+    color: rgb(160, 158, 158);
+}
+
+.sectionCards {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.imgcards {
+    height: 110px;
+    width: 200px;
+    border-radius: 10px;
+    border: solid #9c9c9c 1px;
+}
+.contenedorCarrousell {
+    width: 550px;      
+}
+.imgCarrousell{
+    width:550px;
+    height:380px
+}
+
+
+.contenedorCards {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    justify-items: end;
+    /*background-color: rgb(237, 243, 248);*/
+    padding: 20px;
+}
+
+.cardsProyect {
+    text-align: center;
+    width: 30%;
+    border: solid #9c9c9c 3px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+    height: 150px;
+}
+
+    footer ul {
+        display: flex;
+    }
+
+        footer ul li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+            footer ul li img {
+                width: 4rem;
+                height: 4rem;
+                margin: 30px;
+            }
+
+@media(max-width: 1100px) {
+    .imgcards {
+        width: 170px;
+        height: 100px;
+    }
+}
+
+@media(max-width: 900px) {
+    .imagenes {
+        width: 100px;
+        height: 100px;
+    }
+
+    .imgcards {
+        width: 130px;
+        height: 80px;
+    }
+
+    .sectionCards {
+        font-size: 75%;
+    }
+}
+
+@media(max-width: 860px) {
+    .contenedorCards {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cardsProyect {
+        width: 50%;
+    }
+}
+
+@media(max-width: 770px) {
+    .tarjeta {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media(max-width: 600px) {
+    .contenedorCards {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .cardsProyect {
+        width: 90%;
+    }
+    
+}
+
+@media(max-width: 550px) {
+    footer ul li img {
+        width: 3rem;
+        height: 3rem;
+        margin: 20px;
+    }
+}
+
+@media(max-width: 420px) {
+    /* .tamaño{
+        width: 50%;
+    } */
+
+}
